@@ -377,18 +377,23 @@
             </a></li>
         </ul>
     </div>
-    <!-- form to sign-->
-    <div>
-        <form action="">
-            <h2>ПОДПИШИТЕСЬ НА РАССЫЛКУ</h2>
-            <input type="email">
-            <button>
-                Подписаться
+    <!-- form email--> 
+    <form class="form-email" >
+    <div class="form-email-field">    
+            <h3 class="form-email-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
+            <input type="email" name="email" placeholder="E-mail" class="email-input">
+            <button type="submit" class="form-email-button">
+                Подписаться<span>
+                    <svg class="form-email-icon" width="24" height="24">
+                        <use href="./images/symbol-defs.svg#icon-send"></use>
+                    </svg>
+                </span>
             </button>
             
-        </form>
+        
 
     </div>
+    </form>
     </div>
 </footer>
 

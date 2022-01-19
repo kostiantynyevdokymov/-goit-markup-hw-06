@@ -657,3 +657,42 @@ body {
 .icon-close {
   fill: var(--basecolor2);
 }
+/* form email */
+.form-email {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-email-title {
+  font-style: bold;
+  font-size: 14px;
+  line-height: 1, 14;
+  color: var(--basecolor1);
+  margin-bottom: 20px;
+}
+.form-email-button {
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  background-color: var(--basecolor3hover);
+  border-radius: 4px;
+  margin-left: 12px;
+  text-align: center;
+  padding-bottom: 10px;
+  color: var(--basecolor1);
+}
+.email-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: #2f303a;
+}
+.form-email-field input {
+  margin: 0;
+  padding-left: 16px;
+}
+.form-email-icon {
+  fill: var(--basecolor1);
+  transform: translateY(5px);
+}
