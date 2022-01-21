@@ -756,6 +756,8 @@ body {
   color: #757575;
   cursor: pointer;
 }
+.modal-form-field-checkbox {
+}
 .modal-input-checkbox {
 }
 
@@ -775,7 +777,7 @@ body {
 }
 .modal-icon {
   position: absolute;
-  top: 30px;
+  top: 50%;
   left: 15px;
   fill: var(--basecolor2);
 }
@@ -783,6 +785,6 @@ body {
   color: var(--basecolor3hover);
   padding-right: 5px;
 }
-.modal-input ~ .modal-icon {
+.modal-input:focus ~ .modal-icon {
   fill: var(--basecolor3hover);
 }
